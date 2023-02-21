@@ -1,0 +1,47 @@
+/*######################################
+                GENERAL
+######################################*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*######################################
+                MAIN
+######################################*/
+
+form {
+    margin: 15px;
+}
+
+form input {
+    display: block;
+}
+
+section {
+    text-align: center;
+    background-color: beige;
+    padding: 10px 0;
+}
+
+section input {
+    width: 100%;
+}
+
+.green {
+    background-color: greenyellow;
+}
+
+.orange {
+    background-color: orange;
+}
+
+.red {
+    background-color: crimson;
+}
+
+.theAnswerOf27 input {
+    display: inline;
+}

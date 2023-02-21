@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <title>js_einfuerung_4</title>
+</head>
+
+<body>
+    <form onsubmit="return false" action="#">
+        <label for="">Age</label>
+        <input type="number" name="" id="">
+        <button onclick="adult()">CHECK</button>
+        <p></p>
+    </form>
+
+    <form class="weatherApp" onsubmit="return false" action="#">
+        <label for="">Weatcher quality</label>
+        <input type="number" name="" id="">
+        <button onclick="weather()">CHECK</button>
+        <p>Weather is: <span></span> </p>
+    </form>
+
+    <section id="background_warning">
+        <form class="airQualityApp" onsubmit="return false" action="#">
+            <label for="">Air Quality <span></span></label>
+            <input type="range" min="0" max="150" step="10" onclick="checkAirQuality()" name="" id="">
+            <p>Level of health concern: <span class="hc"></span></p>
+            <p>Level of health effect: <span class="he"></span></p>
+        </form>
+    </section>
+
+    <form class="theAnswerOf27" onsubmit="return false" action="#">
+        <label for="">Deine Zahl</label>
+        <input type="number" name="" id="multi27">
+        <button onclick="differ()">calculate</button>
+    </form>
+
+</body>
+<script src="./assets/js/main.js"></script>
+
+</html>
